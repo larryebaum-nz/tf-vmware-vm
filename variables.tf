@@ -1,6 +1,6 @@
 variable "name" {
   description = "VM name"
-  default     = "kapil-ubuntu"
+  default     = "new-ubuntu-VM"
 }
 variable "dc" {
   description = "Datacenter"
@@ -53,7 +53,6 @@ variable "vsphere_password" {
   description = "vcenter or vsphere password"
   default     = ""
 }
-
 
 variable "vsphere_user" {
   description = "vcenter user"
